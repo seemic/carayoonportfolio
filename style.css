@@ -1,0 +1,23 @@
+.title {
+    font-family: Georgia;
+    /*font-size:large*/
+}
+.paragraph {
+    font-family: Georgia;
+    /*font-size: large;
+    */
+}
+.picture {
+    width: 700px;
+    display: block;
+}
+
+.title-div {
+    width: 400px;
+    display: inline-block;
+}
+
+.intro-div {
+    width: 300px;
+    display: inline-block;
+}
