@@ -15,7 +15,7 @@
 .title-div {
     /*width: 400px;*/
     display: grid;
-    grid-template-columns: 300px 200px;
+    grid-template-columns: 400px 400px;
     /*display:inline-block;*/
 }
 
@@ -68,4 +68,47 @@
 
 .pic-line {
     width: 50px;
+}
+
+.about-me-intro {
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.about-me-paragraph {
+    display: grid;
+    grid-template-columns: 290px 290px;
+}
+
+.pic-about-me {
+    height: 500px
+}
+
+.about-me-title {
+    color: #1fb5c8;
+    font-size: 50px;
+}
+
+.portfolio-picture {
+    height: 500px
+}
+
+.porfolio-info {
+    font-size: 30px;
+
+}
+
+.portfolio-sub {
+    font-size: 20px;
+}
+
+.portfolio-div {
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+.portfolio-title {
+    color: #1fb5c8;
+    display: grid;
+    grid-template-columns: 400px 400px;
 }
