@@ -40,7 +40,7 @@
 }
 
 .pic-intro {
-    width: 500px;
+    width: 200px;
     /*vertical-align: right;*/
 }
 
@@ -121,4 +121,9 @@
 
 .body-paragraph {
     font-size: 20px;
+}
+
+.main-button {
+    display:grid;
+    grid-template-columns: 600px 600px;
 }
