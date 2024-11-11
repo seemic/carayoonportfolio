@@ -13,11 +13,59 @@
 }
 
 .title-div {
-    width: 400px;
-    display: inline-block;
+    /*width: 400px;*/
+    display: grid;
+    grid-template-columns: 300px 200px;
+    /*display:inline-block;*/
 }
 
 .intro-div {
+    /*width: 300px;*/
+    display: grid;
+    grid-template-columns: 400px 100px;
+    /*display: inline-block;*/
+}
+
+.left-intro {
     width: 300px;
+    height: 150px;
     display: inline-block;
+    vertical-align: left;
+}
+
+.intro-portfolio {
+    font-family: Georgia;
+    font-size: xx-large;
+}
+
+.pic-intro {
+    width: 500px;
+    /*vertical-align: right;*/
+}
+
+.main-page {
+    display: grid;
+    grid-template-columns: 500px 400px;
+}
+
+.logo {
+    height: 150px
+}
+
+.main-button {
+    font-size: xx-large;
+}
+
+.div-logo {
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.line {
+    display: grid;
+    grid-template-columns: 50px 50px;
+}
+
+.pic-line {
+    width: 50px;
 }
