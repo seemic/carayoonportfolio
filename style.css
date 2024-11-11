@@ -23,6 +23,7 @@
     /*width: 300px;*/
     display: grid;
     grid-template-columns: 400px 100px;
+    grid-row: 200px;
     /*display: inline-block;*/
 }
 
@@ -111,4 +112,13 @@
     color: #1fb5c8;
     display: grid;
     grid-template-columns: 400px 400px;
+}
+
+.body-paragraphs {
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+.body-paragraph {
+    font-size: 20px;
 }
